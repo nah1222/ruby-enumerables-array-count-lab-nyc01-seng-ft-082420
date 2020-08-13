@@ -3,7 +3,7 @@ def count_strings(array)
   count = 0
   str = []
   while count < array.length do
-    if array[count].blank? == true
+    if array[count].class == String
     i = array[count]
     str << i
     end 
@@ -16,7 +16,7 @@ def count_empty_strings(array)
   count = 0
   str = []
   while count < array.length do
-    if array[count].size == nil
+    if array[count].blank? == true
     i = array[count]
     str << i
     end 
