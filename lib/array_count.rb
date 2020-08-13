@@ -15,12 +15,12 @@ def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
   num = 0
   str = []
-  while count < array.length do
-    if array[count].empty? == true
-    i = array[count]
+  while num < array.length do
+    if array[num].empty? == true
+    i = array[num]
     str << i
     end 
-    count += 1
+    num += 1
 end
 str.length
 end
